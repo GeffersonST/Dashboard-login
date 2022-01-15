@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import logo from "../../assets/logodashboard1.png";
-import "../../styles.css";
+import styles from "../../styles.css";
 
 class Login extends Component {
   handleSubmit = (e) => {
