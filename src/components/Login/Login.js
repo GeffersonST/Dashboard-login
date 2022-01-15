@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import logo from "../../assets/logo1.png";
+import logo from "../../assets/logodashboard1.png";
 import "../../styles.css";
 
 class Login extends Component {
@@ -8,20 +8,20 @@ class Login extends Component {
     console.log(e.target.email.value);
 
     if (!e.target.email.value) {
-      alert("Email is required");
+      alert("O e-mail é obrigatório");
     } else if (!e.target.email.value) {
-      alert("Valid email is required");
+      alert("E-mail válido é obrigatório");
     } else if (!e.target.password.value) {
-      alert("Password is required");
+      alert("Senha requerida");
     } else if (
       e.target.email.value === "me@example.com" &&
       e.target.password.value === "123456"
     ) {
-      alert("Successfully logged in");
+      alert("Logado com sucesso");
       e.target.email.value = "";
       e.target.password.value = "";
     } else {
-      alert("Wrong email or password combination");
+      alert("Combinação incorreta de e-mail ou senha");
     }
   };
 
@@ -46,9 +46,6 @@ class Login extends Component {
           </div>
           <button className="primary">ENTRAR</button>
         </form>
-        <button className="secondary" onClick={this.handleClick}>
-          Criar uma nova conta
-        </button>
       </div>
     );
   }
