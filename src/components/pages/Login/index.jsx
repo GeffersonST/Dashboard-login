@@ -1,6 +1,8 @@
 import React, { Component } from "react";
-import logo from "../../assets/logodashboard1.png";
-import styles from "../../styles.css";
+import logo from "../../../assets/logodashboard1.png";
+// eslint-disable-next-line no-unused-vars
+import styles from "../../../styles.css";
+import {} from "react-router-dom";
 
 class Login extends Component {
   handleSubmit = (e) => {
@@ -17,7 +19,6 @@ class Login extends Component {
       e.target.email.value === "me@example.com" &&
       e.target.password.value === "123456"
     ) {
-      alert("Logado com sucesso");
       e.target.email.value = "";
       e.target.password.value = "";
     } else {
