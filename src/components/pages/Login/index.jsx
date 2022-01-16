@@ -19,6 +19,7 @@ class Login extends Component {
       e.target.email.value === "me@example.com" &&
       e.target.password.value === "123456"
     ) {
+      window.open("http://localhost:3000/home", "_blank");
       e.target.email.value = "";
       e.target.password.value = "";
     } else {
