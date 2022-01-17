@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import logo from "../../../assets/logodashboard1.png";
 // eslint-disable-next-line no-unused-vars
 import styles from "../../../styles.css";
-import {} from "react-router-dom";
+import { App } from "./LoginElements";
 
 class Login extends Component {
   handleSubmit = (e) => {
@@ -35,7 +35,7 @@ class Login extends Component {
 
   render() {
     return (
-      <div className="App">
+      <App>
         <img src={logo} className="logo" alt="Business view - Reports" />
         <form className="form" onSubmit={this.handleSubmit}>
           <div className="input-group">
@@ -48,7 +48,7 @@ class Login extends Component {
           </div>
           <button className="primary">ENTRAR</button>
         </form>
-      </div>
+      </App>
     );
   }
 }

@@ -2,6 +2,7 @@ import React from "react";
 import { useState } from "react/cjs/react.development";
 import Navbar from "./Navbar";
 import Sidebar from "./Sidebar";
+
 const Home = () => {
   const [isOpen, setIsOpen] = useState(false);
 

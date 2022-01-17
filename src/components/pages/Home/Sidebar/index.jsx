@@ -4,9 +4,9 @@ import {
   Icon,
   CloseIcon,
   SidebarMenu,
-  SidebarLink,
   SidebarRoute,
   SideBtnWrap,
+  Site,
 } from "./SidebarElements";
 
 const Sidebar = ({ isOpen, toggle }) => {
@@ -16,9 +16,18 @@ const Sidebar = ({ isOpen, toggle }) => {
         <CloseIcon />
       </Icon>
       <SidebarMenu>
-        <SidebarLink to="/">Croissant</SidebarLink>
-        <SidebarLink to="/">Café</SidebarLink>
-        <SidebarLink to="/">Produtos</SidebarLink>
+        <Site href="https://github.com/GeffersonST" target="_blank">
+          Git Hub
+        </Site>
+        <Site href="https://geffersondev.netlify.app" target="_blank">
+          Portifólio
+        </Site>
+        <Site
+          href="https://github.com/GeffersonST/Dashboard-login"
+          target="_blank"
+        >
+          Documentação
+        </Site>
       </SidebarMenu>
       <SideBtnWrap>
         <SidebarRoute to="/">Logout</SidebarRoute>
