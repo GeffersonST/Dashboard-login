@@ -8,7 +8,7 @@ export const UserName = styled.div`
   left: 0;
   width: 30%;
   display: flex;
-  border-radius: 5px;
+
   justify-content: space-between;
   height: 100px;
   align-items: center;

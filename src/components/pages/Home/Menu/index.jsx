@@ -1,37 +1,42 @@
-import React, { useEffect, useState } from "react";
+import React, { Component } from "react";
 import { MenuContainer } from "./MenuElements";
-import axios from "axios";
 
-const Menu = () => {
-  const [menuData, setMenuData] = useState([]);
+import api from "./api";
 
-  useEffect(() => {
-    const getMenu = async () => {
-      await axios
-        .get("https://desafioreact.s3.amazonaws.com/menu/menu.json")
-        .then((response) => {
-          console.log(response.menus);
-          // eslint-disable-next-line no-undef
-          setMenuData(response.menus.results);
-        });
-    };
-    getMenu();
-  }, []);
+class Menu extends Component {
+  async componentDidMount() {
+    const response = await api.get("/menus");
 
-  return (
-    <>
+    console.log(response.data);
+  }
+
+  render() {
+    return (
       <MenuContainer>
         <ul>
-          <h1>
-            {menuData.map((tema) => {
-              // eslint-disable-next-line no-undef
-              return <li>{tema.id}</li>;
-            })}
-          </h1>
+          <li>Tarefa 1</li>
+          <ul>
+            <li>Urgente</li>
+            <li>Data Fixa</li>
+          </ul>
+        </ul>
+        <ul>
+          <li>Tarefa 2</li>
+          <ul>
+            <li>Avisos</li>
+          </ul>
+        </ul>
+        <ul>
+          <li>Tarefa 3</li>
+          <ul>
+            <li>Convocação</li>
+            <li>Checklist</li>
+            <li>Lixo</li>
+          </ul>
         </ul>
       </MenuContainer>
-    </>
-  );
-};
+    );
+  }
+}
 
 export default Menu;
