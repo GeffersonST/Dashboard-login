@@ -1,6 +1,7 @@
 import styled from "styled-components";
 import { NavLink as Link } from "react-router-dom";
 import { BsFillGearFill } from "react-icons/bs";
+import { GiHamburgerMenu } from "react-icons/gi";
 
 export const Nav = styled.nav`
   height: 80px;
@@ -36,6 +37,11 @@ export const NavIcon = styled.div`
   }
 `;
 export const Bars = styled(BsFillGearFill)`
+  font-size: 2rem;
+  transform: translate(-50%, -15%);
+`;
+export const Menu = styled(GiHamburgerMenu)`
+  justify-content: space-between;
   font-size: 2rem;
   transform: translate(-50%, -15%);
 `;

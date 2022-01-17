@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const UserContainer = styled.div``;
 
 export const UserName = styled.div`
-  position: fixed;
+  position: absolute;
   top: 0;
   left: 0;
   width: 30%;
