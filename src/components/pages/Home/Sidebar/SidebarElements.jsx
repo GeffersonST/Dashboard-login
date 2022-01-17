@@ -74,10 +74,10 @@ export const Site = styled.a`
   list-style: none;
   transition: 0.2s ease-in-out;
   text-decoration: none;
-  color: #e94e0f;
+  color: #676767;
   cursor: pointer;
   &:hover {
-    color: brown;
+    color: #e94e0f;
     transition: 0.2s ease-in-out;
   }
 `;

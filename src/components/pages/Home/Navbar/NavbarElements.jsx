@@ -3,7 +3,6 @@ import { NavLink as Link } from "react-router-dom";
 import { BsFillGearFill } from "react-icons/bs";
 
 export const Nav = styled.nav`
-  background: transparent;
   height: 80px;
   display: flex;
   justify-content: center;
@@ -29,7 +28,7 @@ export const NavIcon = styled.div`
   top: 0;
   right: 0;
   cursor: pointer;
-  color: #e0e8f9;
+  color: #676767;
 
   p {
     transform: translate(-175%, 100%);
