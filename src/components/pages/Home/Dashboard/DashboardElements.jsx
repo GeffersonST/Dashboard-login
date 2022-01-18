@@ -13,8 +13,7 @@ export const DashContainer = styled.div`
   display: flex;
   flex-direction: column;
 
-  background: #e6e4e4;
-  z-index: -1;
+  z-index: 100;
 `;
 
 export const Tarefas = styled.div`
@@ -23,16 +22,18 @@ export const Tarefas = styled.div`
 export const ListaTarefa = styled.div`
   color: #4d4d4d;
   font-weight: bold;
+  z-index: 1;
 `;
 export const SubLista = styled.div`
   color: #4d4d4d;
   font-weight: lighter;
   font-size: 15px;
+  z-index: 1;
 `;
 
 export const Dash = styled.div`
-  background: #ffff;
-
+  background: #e9e1e1;
+  z-index: 1;
   margin: 40px;
   width: 60%;
   border-radius: 5px;

@@ -6,7 +6,7 @@ export const MenuContainer = styled.div`
   left: 0;
   width: 30%;
   display: flex;
-
+  z-index: 0;
   justify-content: space-between;
   height: 500px;
   align-items: center;
@@ -15,8 +15,6 @@ export const MenuContainer = styled.div`
   justify-content: space-between;
 
   background: #36444c;
-  box-shadow: 0px 4px 16px grey;
-  z-index: -1;
 `;
 export const TarefasMenu = styled.div`
   color: red;
@@ -25,7 +23,8 @@ export const TarefasLista = styled.div`
   color: #4d4d4d;
   font-weight: bold;
   text-align: center;
-  margin: 10%;
+
+  margin: 20%;
 `;
 
 export const TarefasContainer = styled.div`
