@@ -1,4 +1,5 @@
 import React from "react";
+
 import {
   DashContainer,
   Tarefas,
@@ -8,6 +9,7 @@ import {
   MsgIcon,
   MsgSend,
 } from "./DashboardElements";
+
 const Dashboard = () => {
   return (
     <DashContainer>
