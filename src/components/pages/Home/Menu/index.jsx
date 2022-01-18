@@ -1,11 +1,16 @@
 import React, { Component } from "react";
-import { MenuContainer } from "./MenuElements";
+import {
+  MenuContainer,
+  TarefasContainer,
+  TarefasMenu,
+  TarefasLista,
+} from "./MenuElements";
 
 import api from "./api";
 
 class Menu extends Component {
   async componentDidMount() {
-    const response = await api.get("/menus");
+    const response = await api.get("/id");
 
     console.log(response.data);
   }
@@ -13,27 +18,15 @@ class Menu extends Component {
   render() {
     return (
       <MenuContainer>
-        <ul>
-          <li>Tarefa 1</li>
-          <ul>
-            <li>Urgente</li>
-            <li>Data Fixa</li>
-          </ul>
-        </ul>
-        <ul>
-          <li>Tarefa 2</li>
-          <ul>
-            <li>Avisos</li>
-          </ul>
-        </ul>
-        <ul>
-          <li>Tarefa 3</li>
-          <ul>
-            <li>Convocação</li>
-            <li>Checklist</li>
-            <li>Lixo</li>
-          </ul>
-        </ul>
+        <TarefasContainer>
+          <TarefasMenu>
+            <TarefasLista>Tarefa 1</TarefasLista>
+            <TarefasMenu>
+              <TarefasLista>Urgente</TarefasLista>
+              <TarefasLista>Data Fixa</TarefasLista>
+            </TarefasMenu>
+          </TarefasMenu>
+        </TarefasContainer>
       </MenuContainer>
     );
   }

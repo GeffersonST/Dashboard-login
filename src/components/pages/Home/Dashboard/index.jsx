@@ -5,34 +5,54 @@ import {
   ListaTarefa,
   SubLista,
   Dash,
+  MsgIcon,
+  MsgSend,
 } from "./DashboardElements";
 const Dashboard = () => {
   return (
     <DashContainer>
       <Dash>
         <Tarefas>
-          <ListaTarefa>Tarefa 1</ListaTarefa>
+          <ListaTarefa>Nome</ListaTarefa>
           <Tarefas>
-            <SubLista>Urgente</SubLista>
-            <SubLista>Data Fixa</SubLista>
+            <SubLista>
+              <MsgIcon /> Subject Boa tarde, como foi o suporte realizado?
+              Segundo texto
+            </SubLista>
+            <SubLista>
+              <MsgSend />
+              Tarefa 1
+            </SubLista>
           </Tarefas>
         </Tarefas>
       </Dash>
       <Dash>
         <Tarefas>
-          <ListaTarefa>Tarefa 1</ListaTarefa>
+          <ListaTarefa>Nome</ListaTarefa>
           <Tarefas>
-            <SubLista>Urgente</SubLista>
-            <SubLista>Data Fixa</SubLista>
+            <SubLista>
+              <MsgIcon /> Subject Boa tarde, como foi o suporte realizado?
+              Segundo texto
+            </SubLista>
+            <SubLista>
+              <MsgSend />
+              Tarefa 1
+            </SubLista>
           </Tarefas>
         </Tarefas>
       </Dash>
       <Dash>
         <Tarefas>
-          <ListaTarefa>Tarefa 1</ListaTarefa>
+          <ListaTarefa>Nome</ListaTarefa>
           <Tarefas>
-            <SubLista>Urgente</SubLista>
-            <SubLista>Data Fixa</SubLista>
+            <SubLista>
+              <MsgIcon /> Subject Boa tarde, como foi o suporte realizado?
+              Segundo texto
+            </SubLista>
+            <SubLista>
+              <MsgSend />
+              Tarefa 1
+            </SubLista>
           </Tarefas>
         </Tarefas>
       </Dash>

@@ -1,5 +1,6 @@
 import styled from "styled-components";
-
+import { IoMdText } from "react-icons/io";
+import { MdSend } from "react-icons/md";
 export const DashContainer = styled.div`
   position: absolute;
   top: 130px;
@@ -29,7 +30,13 @@ export const SubLista = styled.li`
 export const Dash = styled.div`
   background: #f6f6f6;
 
-  margin: 20px;
+  margin: 40px;
   width: 60%;
   border-radius: 5px;
+`;
+export const MsgIcon = styled(IoMdText)`
+  color: #e94e0f;
+`;
+export const MsgSend = styled(MdSend)`
+  color: #e94e0f;
 `;

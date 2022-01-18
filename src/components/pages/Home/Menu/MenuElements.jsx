@@ -17,3 +17,17 @@ export const MenuContainer = styled.div`
   background: #f58733;
   z-index: -1;
 `;
+export const TarefasMenu = styled.ul`
+  color: red;
+`;
+export const TarefasLista = styled.li`
+  color: blue;
+`;
+
+export const TarefasContainer = styled.div`
+  background: #f6f6f6;
+
+  margin: 40px;
+  width: 60%;
+  border-radius: 5px;
+`;
