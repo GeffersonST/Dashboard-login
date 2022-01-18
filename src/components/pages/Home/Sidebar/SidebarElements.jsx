@@ -9,7 +9,7 @@ export const SidebarContainer = styled.aside`
   z-index: 999;
   width: 350px;
   height: 100%;
-  background: #f6f6f6;
+  background: #36444c;
   display: grid;
   align-items: center;
   top: 0;
@@ -74,7 +74,7 @@ export const Site = styled.a`
   list-style: none;
   transition: 0.2s ease-in-out;
   text-decoration: none;
-  color: #676767;
+  color: #f6f6f6;
   cursor: pointer;
   &:hover {
     color: #e94e0f;

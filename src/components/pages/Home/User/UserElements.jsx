@@ -13,8 +13,9 @@ export const UserName = styled.div`
   height: 100px;
   align-items: center;
   box-shadow: 0px 4px 16px grey;
-  background: #f58733;
+  background: #36444c;
   img {
-    max-width: 80px;
+    max-width: 50px;
+    margin: 10px;
   }
 `;

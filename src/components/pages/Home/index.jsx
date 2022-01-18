@@ -6,6 +6,7 @@ import User from "./User";
 import Menu from "./Menu";
 import Dashboard from "./Dashboard";
 import BuscaContainer from "./Search";
+import { HomeContainer } from "./HomeElements";
 
 const Home = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -14,7 +15,7 @@ const Home = () => {
     setIsOpen(!isOpen);
   };
   return (
-    <div>
+    <HomeContainer>
       <Navbar toggle={toggle} />
       <Sidebar isOpen={isOpen} toggle={toggle} />
       <User />
@@ -22,7 +23,7 @@ const Home = () => {
 
       <Dashboard />
       <BuscaContainer />
-    </div>
+    </HomeContainer>
   );
 };
 

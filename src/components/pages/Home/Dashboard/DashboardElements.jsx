@@ -13,30 +13,33 @@ export const DashContainer = styled.div`
   display: flex;
   flex-direction: column;
 
-  background: #279af8;
+  background: #e6e4e4;
   z-index: -1;
 `;
 
-export const Tarefas = styled.ul`
+export const Tarefas = styled.div`
   color: red;
 `;
-export const ListaTarefa = styled.li`
-  color: blue;
+export const ListaTarefa = styled.div`
+  color: #4d4d4d;
+  font-weight: bold;
 `;
-export const SubLista = styled.li`
-  color: green;
+export const SubLista = styled.div`
+  color: #4d4d4d;
+  font-weight: lighter;
+  font-size: 15px;
 `;
 
 export const Dash = styled.div`
-  background: #f6f6f6;
+  background: #ffff;
 
   margin: 40px;
   width: 60%;
   border-radius: 5px;
 `;
 export const MsgIcon = styled(IoMdText)`
-  color: #e94e0f;
+  color: #808080;
 `;
 export const MsgSend = styled(MdSend)`
-  color: #e94e0f;
+  color: #808080;
 `;

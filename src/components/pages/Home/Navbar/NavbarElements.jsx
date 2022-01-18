@@ -29,7 +29,7 @@ export const NavIcon = styled.div`
   top: 0;
   right: 0;
   cursor: pointer;
-  color: #676767;
+  color: #e94e0f;
 
   p {
     transform: translate(-175%, 100%);
