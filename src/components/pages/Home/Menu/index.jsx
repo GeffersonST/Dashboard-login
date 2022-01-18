@@ -10,7 +10,7 @@ import api from "./api";
 
 class Menu extends Component {
   async componentDidMount() {
-    const response = await api.get("/id");
+    const response = await api.get("/menus");
 
     console.log(response.data);
   }

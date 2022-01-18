@@ -4,11 +4,7 @@ const BuscaContainer = () => {
   return (
     <Busca>
       <Form>
-        <Txtbusca
-          type="text"
-          value=""
-          placeholder="Digite o que você procura"
-        />
+        <Txtbusca type="text" placeholder="Digite o que você procura" />
         <Btnbusca id="btnBusca" type="submit" value="Ok">
           Atribuir
         </Btnbusca>
