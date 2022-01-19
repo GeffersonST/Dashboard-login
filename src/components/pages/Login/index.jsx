@@ -3,6 +3,7 @@ import logo from "../../../assets/logodashboard1.png";
 // eslint-disable-next-line no-unused-vars
 import styles from "../../../styles.css";
 import { App } from "./LoginElements";
+import { i18n } from "../../../translate/i18n";
 
 class Login extends Component {
   handleSubmit = (e) => {
@@ -43,10 +44,10 @@ class Login extends Component {
             <input type="email" name="email" placeholder="nome@email.com.br" />
           </div>
           <div className="input-group">
-            <label htmlFor="password">Senha</label>
+            <label htmlFor="password">{i18n.t("messages.senha")}</label>
             <input type="password" name="password" />
           </div>
-          <button className="primary">ENTRAR</button>
+          <button className="primary">{i18n.t("buttons.entrar")}</button>
         </form>
       </App>
     );

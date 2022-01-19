@@ -8,6 +8,7 @@ import {
   SideBtnWrap,
   Site,
 } from "./SidebarElements";
+import { i18n } from "../../../../translate/i18n";
 
 const Sidebar = ({ isOpen, toggle }) => {
   return (
@@ -26,7 +27,7 @@ const Sidebar = ({ isOpen, toggle }) => {
           href="https://github.com/GeffersonST/Dashboard-login"
           target="_blank"
         >
-          Documentação
+          {i18n.t("messages.documento")}
         </Site>
       </SidebarMenu>
       <SideBtnWrap>

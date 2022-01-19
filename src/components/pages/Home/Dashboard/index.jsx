@@ -9,51 +9,64 @@ import {
   MsgIcon,
   MsgSend,
 } from "./DashboardElements";
+import Tradutor from "../../../../translate/Tradutor";
+import { i18n } from "../../../../translate/i18n";
 
 const Dashboard = () => {
   return (
     <DashContainer>
+      <Tradutor />
       <Dash>
         <Tarefas>
-          <ListaTarefa>Nome</ListaTarefa>
+          <ListaTarefa>
+            {i18n.t("titles.app", {
+              name: "OUTRO",
+            })}
+          </ListaTarefa>
           <Tarefas>
             <SubLista>
-              <MsgIcon /> Subject Boa tarde, como foi o suporte realizado?
-              Segundo texto
+              <MsgIcon />
+              {i18n.t("messages.itWorks")}
             </SubLista>
             <SubLista>
               <MsgSend />
-              Tarefa 1
+              {i18n.t("messages.smallText")}
             </SubLista>
           </Tarefas>
         </Tarefas>
       </Dash>
       <Dash>
         <Tarefas>
-          <ListaTarefa>Nome</ListaTarefa>
+          <ListaTarefa>
+            {i18n.t("titles.app", {
+              name: "OUTRO",
+            })}
+          </ListaTarefa>
           <Tarefas>
             <SubLista>
-              <MsgIcon /> Subject Boa tarde, como foi o suporte realizado?
-              Segundo texto
+              <MsgIcon /> {i18n.t("messages.itWorks")}
             </SubLista>
             <SubLista>
               <MsgSend />
-              Tarefa 1
+              {i18n.t("messages.smallText")}
             </SubLista>
           </Tarefas>
         </Tarefas>
       </Dash>
       <Dash>
         <Tarefas>
-          <ListaTarefa>Nome</ListaTarefa>
+          <ListaTarefa>
+            {i18n.t("titles.app", {
+              name: "OUTRO",
+            })}
+          </ListaTarefa>
           <Tarefas>
             <SubLista>
-              <MsgIcon /> Subject Boa tarde, como foi o suporte realizado?
-              Segundo texto
+              <MsgIcon /> {i18n.t("messages.itWorks")}
             </SubLista>
             <SubLista>
               <MsgSend />
-              Tarefa 1
+              {i18n.t("messages.smallText")}
             </SubLista>
           </Tarefas>
         </Tarefas>
