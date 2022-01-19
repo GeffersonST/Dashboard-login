@@ -17,6 +17,7 @@ const Tradutor = () => {
         <option>Selecione um idioma</option>
         <option value="pt-BR">PT</option>
         <option value="en-US">EN</option>
+        <option value="es-ES">ES</option>
       </select>
     </>
   );
