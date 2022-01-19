@@ -17,9 +17,7 @@ export const DashContainer = styled.div`
   z-index: 100;
 `;
 
-export const Tarefas = styled.div`
-  color: red;
-`;
+export const Tarefas = styled.div``;
 export const ListaTarefa = styled.div`
   color: #4d4d4d;
   font-weight: bold;
@@ -35,8 +33,9 @@ export const SubLista = styled.div`
 export const Dash = styled.div`
   background: #e9e1e1;
   z-index: 1;
-  margin: 40px;
-  width: 60%;
+  margin: auto;
+  width: 80%;
+
   border-radius: 5px;
 `;
 export const MsgIcon = styled(IoMdText)`
@@ -44,4 +43,7 @@ export const MsgIcon = styled(IoMdText)`
 `;
 export const MsgSend = styled(MdSend)`
   color: #808080;
+`;
+export const Avatares = styled.div`
+  float: right;
 `;

@@ -2,13 +2,17 @@ const messages = {
   en: {
     translations: {
       titles: {
-        app: "Name: {{name}}",
+        app: "{{name}}",
       },
       messages: {
         documento: "Documentation",
         ajuda: "Help",
-        itWorks: "Good afternoon, how was the support carried out?",
-        smallText: "A small text",
+        itWorks: "I need you to format my computer!",
+        itWorks2: "I request my vacation for January.",
+        itWorks3: " I need two more BACKEND GO developers.",
+        smallText: "Assignment 1",
+        smallText2: "Assignment 2",
+        smallText3: "Assignment 3",
         placeholder: "Type what you are looking for",
         senha: "PASSWORD",
         incorreta: "Incorrect email or password combination",
