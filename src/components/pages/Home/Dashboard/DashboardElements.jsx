@@ -3,12 +3,13 @@ import { IoMdText } from "react-icons/io";
 import { MdSend } from "react-icons/md";
 export const DashContainer = styled.div`
   position: absolute;
-  top: 130px;
+  top: 140px;
   left: 0;
   width: 70%;
   display: flex;
   margin-left: 30%;
-  height: 500px;
+  height: 560px;
+  border: 5px solid #174f78;
 
   display: flex;
   flex-direction: column;

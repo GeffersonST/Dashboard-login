@@ -27,11 +27,13 @@ export const Txtbusca = styled.input`
 export const Btnbusca = styled.button`
   background: #e94e0f;
   max-width: 100px;
+  min-width: 10%;
   color: #fff;
-  margin: 10px;
-  padding: 10px;
+  margin: 5px;
+  padding: 5px;
+
   border: 0 none;
-  font-size: 11px;
+  font-size: 50%;
   font-weight: bold;
   text-transform: uppercase;
   &:hover {

@@ -6,8 +6,9 @@ export const UserName = styled.div`
   position: absolute;
   top: 0;
   left: 0;
-  width: 30%;
+  width: 100%;
   display: flex;
+  z-index: -1;
 
   justify-content: space-between;
   height: 100px;

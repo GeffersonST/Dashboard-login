@@ -34,7 +34,7 @@ const Container = styled.div`
   display: flex;
   flex-direction: column;
 
-  margin: 1450px;
+  margin: 300px;
 `;
 
 const Title = styled.h1`
