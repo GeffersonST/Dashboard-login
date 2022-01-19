@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const Busca = styled.div`
   padding: 0;
-  background: #36444c;
+  background: #174f78;
   position: absolute;
   top: 100px;
   left: 0;

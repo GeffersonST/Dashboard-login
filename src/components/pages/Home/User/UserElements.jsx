@@ -13,7 +13,7 @@ export const UserName = styled.div`
   height: 100px;
   align-items: center;
   box-shadow: 0px 4px 16px grey;
-  background: #36444c;
+  background: #174f78;
   img {
     max-width: 50px;
     margin: 10px;

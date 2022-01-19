@@ -4,7 +4,7 @@ export const MenuContainer = styled.div`
   position: absolute;
   top: 130px;
   left: 0;
-  width: 30%;
+  width: 10%;
   display: flex;
   z-index: 0;
   justify-content: space-between;
@@ -13,8 +13,6 @@ export const MenuContainer = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-
-  background: #36444c;
 `;
 export const TarefasMenu = styled.div`
   color: red;
@@ -29,8 +27,9 @@ export const TarefasLista = styled.div`
 
 export const TarefasContainer = styled.div`
   background: #f6f6f6;
-  height: 500px;
+  height: 150px;
   margin: 10px;
   width: 90%;
   border-radius: 5px;
+  z-index: -100;
 `;
