@@ -15,14 +15,14 @@
 
 
 ## 📚 Seções
-O App é composto por 3 seções diferentes:
+O App é composto por 2 seções diferentes:
 
 
 - **Login:** Nessa seção você pode efetuar o Login;
 - **Dashboard:** Aqui você encontra o Dashboard inteiro;
 
 ## 📊 Funcionalidades
-O App é composto por 5 funcionalidades diferentes:
+O App é composto por 4 funcionalidades diferentes:
 
 
 - **Login:** Restrito para acesso do usuário fixo;
