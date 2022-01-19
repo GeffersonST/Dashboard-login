@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React from "react";
 import {
   MenuContainer,
   TarefasContainer,
@@ -6,30 +6,20 @@ import {
   TarefasLista,
 } from "./MenuElements";
 
-import api from "./api";
-
-class Menu extends Component {
-  async componentDidMount() {
-    const response = await api.get("/menus");
-
-    console.log(response.data);
-  }
-
-  render() {
-    return (
-      <MenuContainer>
-        <TarefasContainer>
+const Menu = () => {
+  return (
+    <MenuContainer>
+      <TarefasContainer>
+        <TarefasMenu>
+          <TarefasLista> Tarefas</TarefasLista>
           <TarefasMenu>
-            <TarefasLista>Tarefa 1</TarefasLista>
-            <TarefasMenu>
-              <TarefasLista>Urgente</TarefasLista>
-              <TarefasLista>Data Fixa</TarefasLista>
-            </TarefasMenu>
+            <TarefasLista>Urgente</TarefasLista>
+            <TarefasLista>Data Fixa</TarefasLista>
           </TarefasMenu>
-        </TarefasContainer>
-      </MenuContainer>
-    );
-  }
-}
+        </TarefasMenu>
+      </TarefasContainer>
+    </MenuContainer>
+  );
+};
 
 export default Menu;
